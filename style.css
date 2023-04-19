@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html {
+  font-size: 16px;
+}
+ol,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.primary-sidebar {
+  padding: 5rem;
+  background-color: #191919;
+  color: white;
+  display: flex;
+  align-items: center;
+  column-gap: 5rem;
+  row-gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.primary-sidebar .wp-block-heading {
+  font-size: 1.3rem;
+}
+.primary-sidebar a {
+  color: inherit;
+}
+.navbar a {
+  text-decoration: none;
+}
