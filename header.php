@@ -13,6 +13,5 @@
 <body <?php body_class(); ?>>
   <div class="navbar px-4">
     <p class="navbar-brand"><a class="text-decoration-none" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></p>
-
     <?php wp_nav_menu(array('header-menu' => 'header-menu')); ?>
   </div>

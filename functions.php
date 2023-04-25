@@ -22,8 +22,11 @@ function add_widget_Support()
         'after_title'  => '</h2>',
     ));
 };
+
 // Hook the widget initation and run our function
 add_action('widgets_init', 'add_Widget_Support');
+
+add_theme_support('post-thumbnails');
 // Register a new navigation menu
 function add_Main_Nav()
 {
